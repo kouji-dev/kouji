@@ -2,7 +2,10 @@
   "name": "@kouji/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "docs": "nx serve docs",
+    "angular:build": "nx build @kouji/ngx --configuration=development"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~18.1.0",
@@ -28,6 +31,7 @@
     "@angular/cli": "~18.1.0",
     "@angular/compiler-cli": "~18.1.0",
     "@angular/language-service": "~18.1.0",
+    "ng-packagr": "~18.1.0",
     "@nx/devkit": "19.5.3",
     "@nx/eslint": "19.5.3",
     "@nx/eslint-plugin": "19.5.3",

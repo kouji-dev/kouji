@@ -1,0 +1,13 @@
+{
+  "name": "@kouji/ngx",
+  "license": "MIT",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/core": ">=18.0.0",
+    "@angular/common": ">=18.0.0"
+  },
+  "dependencies": {
+    "@nx/devkit": "19.5.3"
+  },
+  "sideEffects": false
+}
